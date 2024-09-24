@@ -1,8 +1,6 @@
 {
-  "name": "project",
-  "version": "0.1.0",
-  "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
     "@mui/icons-material": "^5.15.20",
@@ -51,5 +49,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+    "aos": "^2.3.4",
+    "axios": "^1.7.2",
+    "react-sweetalert2": "^0.6.0",
+    "sonner": "^1.5.0",
+    "swiper": "^11.1.4"
+>>>>>>> 9f3104d8d87132a9855dd5680c820003c5821161
   }
 }
