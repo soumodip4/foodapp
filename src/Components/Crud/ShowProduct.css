@@ -1,0 +1,168 @@
+.grid-div{
+    width: 80%;
+    /* background-color: blueviolet; */
+    margin-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Pagination{
+    margin-left: 680px;
+    margin-bottom: 60px;
+}
+.main-card{
+    height: 350px;
+    width: 400px;
+}
+.card-media{
+    height: 200px;
+   
+}
+/* styles.css */
+/* styles.css */
+
+
+.s-btn a {
+    background-color: #007BFF;
+    width: 100px;
+    height: 30px;
+    padding-top: 5px;
+    border-radius: 2px ;
+    color: rgb(240, 240, 243);
+    text-decoration: none;
+}
+
+.s-btn:hover {
+    background-color: #063466; /* Darker shade for hover effect */
+    color: white;
+}
+
+.s-btn:hover a {
+    color: rgb(187, 13, 13);
+
+}
+
+/* SweetAlertStyles.css */
+.sweet-alert-title {
+    color: #d9534f; /* Customize title color */
+    font-size: 24px; /* Customize title font size */
+    font-weight: bold; /* Make the title bold */
+}
+
+.sweet-alert-subtitle {
+    color: #5bc0de; /* Customize subtitle color */
+    font-size: 18px; /* Customize subtitle font size */
+    margin-top: 10px; /* Add margin to the subtitle */
+}
+
+.sweet-alert-button-confirm {
+    background-color: #5cb85c; /* Customize confirm button background */
+    color: white; /* Customize confirm button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Customize font size */
+}
+
+.sweet-alert-button-cancel {
+    background-color: #f0ad4e; /* Customize cancel button background */
+    color: white; /* Customize cancel button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Customize font size */
+}
+
+
+@media(max-width: 575.98px){
+    .grid-div{
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+    }
+    .main-card{
+        height: 350px;
+        width: 100%;
+    }
+    .card-media{
+        height: 150px;
+       
+    }
+    .Pagination{
+        margin-left: 34%;
+        margin-bottom: 60px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .grid-div{
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+    }
+    .main-card{
+        height: 350px;
+        width: 100%;
+    }
+    .card-media{
+        height: 200px;
+       
+    }
+    .Pagination{
+        margin-left: 40%;
+        margin-bottom: 60px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .grid-div{
+        margin-left: 15%;
+        display: flex;
+        align-items: center;
+    }
+    .main-card{
+        height: 400px;
+        width: 100%;
+    }
+    .card-media{
+        height: 200px;
+       
+    }
+    .Pagination{
+        margin-left: 40%;
+        margin-bottom: 60px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .description{
+        font-size: 25px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .grid-div{
+        margin-left: 10%;
+        display: flex;
+        align-items: center;
+    }
+    .main-card{
+        height: 400px;
+        width: 100%;
+    }
+    .card-media{
+        height: 200px;
+       
+    }
+    .Pagination{
+        margin-left: 40%;
+        margin-bottom: 60px;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .description{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,258 @@
+.grid1 {
+    background-color: rgb(255, 244, 232);
+    height: 825px;
+}
+
+.sub-grid-div {
+    margin-top: 80px;
+}
+
+.sub-grid-div img {
+    height: 600px;
+    margin-left: 40px;
+
+}
+
+.sub-grid-text {
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+.sub-grid-text h2 {
+    font-size: 50px;
+}
+
+.sub-grid-text p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.sub-grid-text h4 {
+    margin-top: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.sub-grid-text h4 span {
+    color: rgb(244, 139, 26);
+    margin-right: 10px;
+
+}
+
+.sub-grid-text .explore {
+
+    color: #ffff;
+    background-color: rgb(255, 94, 0);
+    font-size: 20px;
+    border-radius: 50px;
+    font-weight: 600;
+
+}
+
+button.explore {
+    height: 70px;
+    width: 200px;
+    margin-top: 70px;
+}
+
+button.explore:hover {
+    background-color: black;
+
+}
+
+
+@media (max-width: 575.98px) {
+    .grid1 {
+        
+        height: auto;
+    }
+    .sub-grid-div img {
+        height: 300px;
+        margin-left: 0px;
+
+    }
+
+    .sub-grid-text {
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 7px;
+    }
+
+    .sub-grid-text br {
+        display: none;
+    }
+
+    .sub-grid-text h2 {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+
+    .sub-grid-text p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .sub-grid-text h4 {
+        margin-top: 10px;
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    button.explore {
+        height: 40px;
+        width: 120px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .sub-grid-text .explore {
+        font-size: 12px;
+    
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .grid1 {
+        
+        height: auto;
+       
+    }
+    .sub-grid-div img {
+        height: 600px;
+        margin-left: 0px;
+        margin-top: 50px;
+
+    }
+    .sub-grid-text {
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 7px;
+    }
+
+    .sub-grid-text br {
+        display: none;
+    }
+
+    .sub-grid-text h2 {
+        font-size: 40px;
+        margin-top: 0px;
+    }
+
+    .sub-grid-text p {
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .sub-grid-text h4 {
+        margin-top: 10px;
+        font-size: 18px;
+        padding-top: 10px;
+    }
+    button.explore {
+        height: 50px;
+        width: 140px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .sub-grid-text .explore {
+        font-size: 18px;
+    
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .grid1 {
+        
+        height: auto;
+       
+    }
+    .sub-grid-div img {
+        height: 700px;
+        margin-left: 30px;
+        margin-top: 40px;
+
+    }
+    .sub-grid-text {
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+    }
+
+    .sub-grid-text br {
+        display: none;
+    }
+
+    .sub-grid-text h2 {
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    .sub-grid-text p {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .sub-grid-text h4 {
+        margin-top: 10px;
+        font-size: 24px;
+        padding-top: 10px;
+    }
+    button.explore {
+        height: 70px;
+        width: 180px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .sub-grid-text .explore {
+        font-size: 22px;
+    
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .grid1 {
+        
+        height: auto;
+       
+    }
+    .sub-grid-div img {
+        height: 500px;
+        margin-left: 0px;
+        margin-top: 60px;
+
+    }
+    .sub-grid-text {
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 9px;
+        padding-top: 100px;
+    }
+    .sub-grid-text br {
+        display: none;
+    }
+    .sub-grid-text h2 {
+        font-size: 50px;
+        margin-top: 0px;
+    }
+
+    .sub-grid-text p {
+        font-size: 28px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .sub-grid-text h4 {
+        margin-top: 0px;
+        font-size: 24px;
+        padding-top: 0px;
+    }
+    button.explore {
+        height: 70px;
+        width: 180px;
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .sub-grid-text .explore {
+        font-size: 22px;
+    
+    }
+
+}

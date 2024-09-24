@@ -1,0 +1,122 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    margin-bottom: 100px;
+    
+  }
+  
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: #333;
+    font-weight: bold;
+    margin: 0px;
+  }
+  .sub-heading{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 30px;
+    color: #e06c1e;
+    /* margin: 0px; */
+    
+  }
+  .swipe1{
+    background: url(../../../public/images/srimps.jpg);
+  }
+  .swipe2{
+    background: url(../../../public/images/salmons.jpg);
+  }
+  .swipe3{
+    background: url(../../../public/images/berry.jpg);
+  }
+  .swipe4{
+    background: url(../../../public/images/seafood.jpg);
+  }
+  .swipe5{
+    background: url(../../../public/images/dessert.jpg);
+  }
+  .swipe6{
+    background: url(../../../public/images/mutton.jpg);
+  }
+  .swipe7{
+    background: url(../../../public/images/noodls.jpg);
+  }
+  .swipe8{
+    background: url(../../../public/images/chesse.jpg);
+  }
+  .swipe9{
+    background: url(../../../public/images/chiken.jpg);
+  }
+  
+
+  
+  .swiper_container {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .swiper-details {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-controler {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slider-arrow {
+    cursor: pointer;
+    color: #fff;
+    font-size: 2rem;
+  }
+  @media (max-width: 575.98px){
+
+    .heading {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #333;
+      font-weight: bold;
+      margin: 0px;
+      margin-bottom: 100px;
+    }
+    .sub-heading{
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+      margin-top: 30px;
+      color: #e06c1e;
+      /* margin: 0px; */
+      
+    }
+    .swiper-details {
+      height: 180px;
+      width: 180px;
+    }
+   
+  }

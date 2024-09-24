@@ -1,0 +1,41 @@
+/* .AppBar{
+    background-color: transparent;
+} */
+.nav_box {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  
+  .AppBar {
+    background-color: rgb(255, 94, 0);
+  }
+  
+  .NavLink {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+  .log-btn{
+    background-color: blue;
+  }
+  /* .box{
+    background-color: black;
+  } */
+  /* .drawer{
+    background-color: rgb(227, 5, 5);
+  } */
+
+  /* Header.css */
+.drawer .MuiPaper-root {
+  background-color: #333; /* Custom background color */
+}
+
+.NavLink {
+  text-decoration: none;
+  color: white;
+}
+
+.drawer .box {
+  padding: 16px;
+}

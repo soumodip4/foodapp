@@ -1,0 +1,159 @@
+/* .add{
+} */
+.main-div2{
+    background: url(../../../public/images/food-background.jpg);
+    background-size: cover;
+    background-color: black;
+    height: 1100px;
+    display: flex;
+    text-align: center;
+   
+    align-items: center;
+    justify-content: center;
+}
+.add h2{
+    font-size: 60px;
+    color: rgb(255, 145, 0);
+    padding-top: 100px;
+    text-transform: capitalize;
+    margin-bottom: 100px;
+}
+
+.adds {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background: rgba( 108, 158, 226, 0.2 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 3px );
+   -webkit-backdrop-filter: blur( 6px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.25 );
+   height: 380px;
+   width: 400px;
+   padding-top: 50px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin: auto;
+   
+   
+}
+.form-group1 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.textA {
+    width: 100%;
+}
+.textA .MuiOutlinedInput-root {
+    border-radius: 25px;
+    
+}
+.submit-button:hover {
+    background-color: #115293;
+}
+
+/* Custom input file styles */
+.custom-file-input {
+    display: none;
+}
+
+.custom-file-label {
+    width: 100%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-file-label:hover {
+    background-color: #d0d0d0;
+}
+
+.form-group1 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+  
+  .textA {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .textA:hover {
+    border-color: #888;
+  }
+  
+  .textA:focus {
+    outline: none;
+    border-color: #007BFF;
+  }
+  
+  .textA::file-selector-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .textA::file-selector-button:hover {
+    background-color: #3990ed;
+  }
+  
+@media (max-width: 575.98px){
+    /* .add{
+        width: 100px;
+        margin-left: 0px;
+    } */
+    .main-div2{
+        padding-top: 80px;
+    }
+    .add h2{
+        font-size: 40px;
+        color: rgb(255, 145, 0);
+        padding-top: 0px;
+        text-transform: capitalize;
+        margin-bottom: 100px;
+    }
+    .adds {
+        width: 90%;
+        padding-left: 10px;
+        padding-right: 2px;
+        padding-top: 40px;
+        height: auto;
+        margin: 0px;
+    }
+    .form-group1 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .main-div2{
+        padding-left: 20px;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .main-div2{
+        padding-top: 700px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .main-div2{
+        padding-top: 80px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .main-div2{
+        padding-top: 80px;
+    }
+}

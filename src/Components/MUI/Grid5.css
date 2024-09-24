@@ -1,0 +1,170 @@
+.grid5{
+    height: 600px;
+    background-color: #ffff;
+}
+.Table1{
+    margin-top: 300px;
+}
+.Table1 img{
+    margin-left: 150px;
+}
+.Table2{
+    margin-top: 360px;
+}
+.Table2 h2{
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 80px;
+}
+.Table2 h3{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.Table2 h4{
+    font-size: 20px;
+    font-weight: 400;
+   
+}
+.Table3{
+    margin-top: 300px;
+}
+.Table3 .reservation{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(255, 94, 0);
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.Table3 .reservation:hover{
+    background-color: rgb(255, 94, 0);
+}
+@media (max-width: 575.98px){
+    .grid5{
+        height: auto;
+        
+    }
+    .Table1 img{
+        margin-left: 15px;
+        height: 200px;
+    }
+    .Table1{
+        margin-top: 500px;
+    }
+    .Table3{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .Table2{
+        margin-top: 30px;
+    }
+    .Table2 h2{
+        font-size: 60px;
+        font-weight: bold;
+        line-height: 80px;
+    }
+    .Table2 h3{
+        font-size: 30px ;
+    }
+    .Table2 h4{
+        font-size: 18px;
+    }
+    .Table3 .reservation{
+        height: 150px;
+        width: 250px;
+        background-color:rgb(255, 94, 0);
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .grid5{
+        height: auto;
+        
+    }
+    .Table1 img{
+        margin-left: 5px;
+        height: 150px;
+    }
+    .Table1{
+        margin-top: 900px;
+        
+    }
+   
+    .Table3{
+        margin-top: 900px;
+        margin-bottom: 30px;
+    }
+    .Table2{
+        margin-top: 900px;
+    }
+    .Table2 h2{
+        font-size: 70px;
+    }
+    .Table2 h3{
+        font-size: 40px;
+    }
+    .Table2 h4{
+        font-size:18px ;
+    }
+    .Table3 .reservation{
+        height: 120px;
+        width: 200px;
+        background-color:rgb(255, 94, 0);
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .grid5{
+        height: auto;
+        
+    }
+    .Table1 img{
+        margin-left: 15px;
+        height: 300px;
+    }
+    .Table1{
+        margin-top: 250px;
+    }
+    .Table1 img{
+        height: 180px;
+    }
+    .Table3{
+        margin-top: 250px;
+        margin-bottom: 30px;
+    }
+    .Table2{
+        margin-top: 250px;
+    }
+    .Table2 h2{
+        font-size: 60px;
+    }
+    .Table2 h3{
+        font-size: 30px;
+    }
+    .Table3 .reservation{
+        height: 150px;
+        width: 250px;
+        background-color:rgb(255, 94, 0);
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .grid5{
+        height: auto;
+        
+    }
+    .Table1 img{
+        margin-left: 10px;
+    }
+}

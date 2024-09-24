@@ -1,0 +1,285 @@
+/* html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+  } */
+   .main3{
+    height: 800px;
+   }
+   .firstline{
+    color: white;
+    font-size: 35px;
+    margin: 0px;
+    margin-top: 20px;
+   }
+   .secondline{
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0px;
+   }
+  
+  .mySwiper {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    position: relative; /* Ensure the parent container is positioned relative */
+  }
+
+  .slide1{
+    background: url(../../../public/images/slider1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    /* height: 100px; */
+  }
+  .slide2{
+    background: url(../../../public/images/slider2.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 100px; */
+  }
+  .slide3{
+    background: url(../../../public/images/slider3.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 100px; */
+  }
+  
+  /* .carousel-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the whole slide */
+   
+  
+  .swiper-pagination {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    /* color: orange; */
+    size: 100px;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: white; /* Customize the pagination bullet color */
+ 
+    height: 15px;
+    width: 15px;
+    margin-right: 100px;
+    margin: 5px 0; /* Add some space between the bullets */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: orange; /* Customize the active pagination bullet color */
+    margin-right: 100px;
+  }
+  /* Override styles when autoplay is active */
+.swiper-container-autoplaying .swiper-pagination-bullet {
+    background: white !important; /* Customize the pagination bullet color when autoplay is active */
+  }
+  
+  .swiper-container-autoplaying .swiper-pagination-bullet-active {
+    background: orange !important; /* Customize the active pagination bullet color when autoplay is active */
+  }
+
+
+  @media (max-width: 575.98px){
+    .main3{
+      height: 500px;
+     }
+    
+  .mySwiper {
+    width: 100%;
+    height: 80vh; /* Full viewport height */
+    position: relative; /* Ensure the parent container is positioned relative */
+  }
+    .firstline{
+      font-size: 25px;
+      margin: 0px;
+      margin-top: 20px;
+     }
+     .secondline{
+      color: white;
+      font-size: 50px;
+      font-weight: bold;
+      margin: 0px;
+     }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px){
+    .main3{
+      height: 850px;
+     }
+    
+  .mySwiper {
+    width: 100%;
+    height: 90vh; /* Full viewport height */
+    position: relative; /* Ensure the parent container is positioned relative */
+  }
+    .firstline{
+      font-size: 25px;
+      margin: 0px;
+      margin-top: 20px;
+     }
+     .secondline{
+      color: white;
+      font-size: 50px;
+      font-weight: bold;
+      margin: 0px;
+     }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px){
+    .main3{
+      height: 850px;
+     }
+    
+  .mySwiper {
+    width: 100%;
+    height: 90vh; /* Full viewport height */
+    position: relative; /* Ensure the parent container is positioned relative */
+  }
+    .firstline{
+      font-size: 35px;
+      margin: 0px;
+      margin-top: 40px;
+     }
+     .secondline{
+      color: white;
+      font-size: 70px;
+      font-weight: bold;
+      margin: 0px;
+     }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px){
+    .main3{
+      height: 1180px;
+     }
+    
+  .mySwiper {
+    width: 100%;
+    height: 90vh; /* Full viewport height */
+    position: relative; /* Ensure the parent container is positioned relative */
+  }
+    .firstline{
+      font-size: 35px;
+      margin: 0px;
+      margin-top: 40px;
+     }
+     .secondline{
+      color: white;
+      font-size: 70px;
+      font-weight: bold;
+      margin: 0px;
+     }
+  }
+
+/*   
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .main3 {
+    height: 400px;
+  }
+  .firstline {
+    font-size: 20px;
+  }
+  .secondline {
+    font-size: 40px;
+  }
+  .swiper-pagination {
+    top: 90%;
+    transform: translateY(-50%);
+  }
+} */
+
+/* 
+  @media (max-width: 575.98px) {
+
+    .slide1{
+      background: url(../../../public/images/slider1.jpg);
+      background-position: center;
+      background-size: cover;
+      
+      
+    }
+    .main3 {
+      height: 400px;
+    }
+    .firstline {
+      font-size: 20px;
+    }
+    .secondline {
+      font-size: 40px;
+    }
+    .swiper-pagination {
+      top: 90%;
+      transform: translateY(-50%);
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .main3 {
+      height: 500px;
+    }
+    .firstline {
+      font-size: 25px;
+    }
+    .secondline {
+      font-size: 50px;
+    }
+    .swiper-pagination {
+      top: 90%;
+      transform: translateY(-50%);
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .main3 {
+      height: 600px;
+    }
+    .firstline {
+      font-size: 30px;
+    }
+    .secondline {
+      font-size: 60px;
+    }
+    .swiper-pagination {
+      top: 90%;
+      transform: translateY(-50%);
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .main3 {
+      height: 700px;
+    }
+    .firstline {
+      font-size: 35px;
+    }
+    .secondline {
+      font-size: 70px;
+    }
+    .swiper-pagination {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  } */
+
+
+
+
+  /* @media (max-width: 575.98px){
+
+  }
+
+  @media (min-width: 576px) and (max-width: 767.98px){
+
+  }
+  @media (min-width: 768px) and (max-width: 991.98px){
+
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px){
+
+  } */

@@ -1,0 +1,294 @@
+.main-div{
+    height: 800px;
+    width: 100%;
+    background-color: #faebd7;
+    position: relative;
+    
+    
+
+}
+.sub-main{
+width: 80%;
+height: 750px;
+position: absolute;
+left: 10%;
+top: 25%;
+
+}
+.grid4{
+    background-color:whitesmoke;
+    height: 100%;
+    border-radius: 25px;
+    
+
+}
+.plate1{
+    margin-top: 70px;
+}
+.plate2{
+    margin-top: 70px;
+}
+.plate3{
+    margin-top: 70px;
+}
+.plate h2{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.plate p{
+    font-size: 18px;
+    padding-top: 10px;
+}
+.plate .Explore3{
+    background-color: rgb(255, 94, 0);
+    color: #ffff;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+    width: 200px;
+    height: 70px;
+    border-radius: 40px;
+    margin-top: 40px;
+}
+.plate .Explore3:hover{
+    background-color: rgb(32, 31, 31);
+}
+
+.rotate {
+    animation: rotation 30s linear infinite ;
+  }
+  
+  .linear {
+    animation-timing-function: linear;
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @media (max-width: 575.98px){
+    .main-div{
+      height: 1200px;
+    }
+    .sub-main{
+      width: 80%;
+      height: auto;
+      position: absolute;
+      left: 10%;
+      top: 15%;
+      }
+      .rotate {
+        animation: rotation 30s;
+        height: 250px;
+      }
+      .plate{
+        width: 100%;
+      }
+      .plate img {
+        width: 100%;
+      }
+      .plate h2{
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .plate p{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    .plate .Explore3{
+      background-color: rgb(255, 94, 0);
+      color: #ffff;
+      text-transform: capitalize;
+      font-size: 18px;
+      font-weight: 600;
+      width: 160px;
+      height: 50px;
+      border-radius: 40px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+  }
+  @media (min-width: 576px) and (max-width: 767.98px){
+    .main-div{
+      height: 1200px;
+      width: 100%;
+      background-color: #faebd7;
+      position: relative;
+      
+      
+  
+  }
+    .sub-main{
+      width: 80%;
+      height: auto;
+      position: absolute;
+      left: 10%;
+      top: 15%;
+      
+      
+      }
+
+      .plate1{
+        margin-top: 20px;
+    }
+    .plate2{
+        margin-top: 20px;
+    }
+    .plate3{
+        margin-top: 20px;
+    }
+      .rotate {
+        animation: rotation 30s;
+        height: 350px;
+      }
+      /* .plate{
+        width: 300px;
+      } */
+      .plate h2{
+        font-size: 26px;
+        padding-top: 5px;
+    }
+    .plate p{
+        font-size: 22px;
+        padding-top: 5px;
+    }
+    .plate .Explore3{
+      background-color: rgb(255, 94, 0);
+      color: #ffff;
+      text-transform: capitalize;
+      font-size: 22px;
+      font-weight: 600;
+      width: 200px;
+      height: 80px;
+      border-radius: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  }
+  @media (min-width: 768px) and (max-width: 991.98px){
+    .main-div{
+      height: 1700px;
+      width: 100%;
+      background-color: #faebd7;
+      position: relative;
+      
+      
+  
+  }
+  .grid4{
+    width: 100%;
+  }
+    .sub-main{
+      width: 90%;
+      height: auto;
+      position: absolute;
+      left: 5%;
+      top: 20%;
+      
+      
+      }
+      .plate img{
+        height: 250px;
+      }
+
+      .plate1{
+        margin-top: 20px;
+    }
+    .plate2{
+        margin-top: 20px;
+    }
+    .plate3{
+        margin-top: 20px;
+    }
+      .rotate {
+        animation: rotation 30s;
+        height: 450px;
+      }
+      /* .plate{
+        width: 300px;
+      } */
+      .plate h2{
+        font-size: 32px;
+        padding-top: 5px;
+    }
+    .plate p{
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .plate .Explore3{
+      background-color: rgb(255, 94, 0);
+      color: #ffff;
+      text-transform: capitalize;
+      font-size: 22px;
+      font-weight: 600;
+      width: 200px;
+      height: 80px;
+      border-radius: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px){
+    .main-div{
+      height: 450px;
+    }
+    
+    .sub-main{
+      width: 90%;
+      height: auto;
+      position: absolute;
+      left: 5%;
+      top: 25%;
+      
+      
+      }
+
+      .plate1{
+        margin-top: 20px;
+    }
+    .plate2{
+        margin-top: 20px;
+    }
+    .plate3{
+        margin-top: 20px;
+    }
+      .rotate {
+        animation: rotation 30s;
+        height: 280px;
+      }
+      /* .plate{
+        width: 300px;
+      } */
+      .plate h2{
+        font-size: 26px;
+        padding-top: 5px;
+    }
+    .plate p{
+        font-size: 22px;
+        padding-top: 5px;
+    }
+    .plate p br{
+      display: none;
+    }
+    .plate .Explore3{
+      background-color: rgb(255, 94, 0);
+      color: #ffff;
+      text-transform: capitalize;
+      font-size: 22px;
+      font-weight: 600;
+      width: 200px;
+      height: 80px;
+      border-radius: 40px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  }

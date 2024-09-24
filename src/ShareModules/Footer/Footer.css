@@ -1,0 +1,19 @@
+.foot {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    
+  }
+  
+  .foot a {
+    color: #f1f1f1;
+    text-decoration: none;
+  }
+  
+  .foot a:hover {
+    text-decoration: underline;
+  }
+  
+  .foot h6 {
+    margin-bottom: 16px;
+  }
+  

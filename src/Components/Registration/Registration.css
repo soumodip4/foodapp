@@ -1,0 +1,303 @@
+.registration-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: url(../../../public/images/regBack3.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.background-overlay {
+    background: url(../../../public/images/regBack3.jpg) no-repeat;
+    padding-top: 60px;
+    background-size: 100% 100%;
+    background-position: left;
+    width: 80%;
+    background-color: white;
+    height: 100%;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(108, 158, 226, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    height: 500px;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+}
+
+/* General form group styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style for the TextField */
+.form-input .MuiOutlinedInput-root {
+    border-radius: 25px;
+    width: 100%;
+}
+
+.form-input .MuiInputBase-input {
+    color: white;
+}
+
+.form-input label {
+    color: white;
+}
+
+/* Style for the error messages */
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+
+/* Style for the submit button */
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #115293;
+}
+
+/* Custom input file styles */
+.custom-file-input {
+    display: none;
+}
+
+.custom-file-label {
+    width: 100%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-file-label:hover {
+    background-color: #d0d0d0;
+}
+
+/* Styles for login redirect link */
+/* .login-redirect {
+    margin-top: 10px;
+}
+
+.redirect-link {
+    color: blue;
+} */
+
+
+/* .form-group {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
+/* .file-input {
+    border: 2px solid #007BFF;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+} */
+/* 
+.file-input:hover {
+    border-color: #0056b3; 
+}
+
+.file-input:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    border-color: #0056b3; 
+} */
+
+
+/* Media queries for responsiveness */
+
+/* For small devices (phones, 320px and up) */
+@media (max-width: 575.98px) {
+    .registration-form {
+        max-width: 230px;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 30px;
+        height: auto;
+        margin: 0px;
+    }
+    
+    .form-input .MuiInputBase-input {
+        font-size: 18px; 
+    }
+    
+    .form-input .MuiInputLabel-root {
+        font-size: 12px; 
+    }
+    
+    .submit-button {
+        width: 120px;
+        height: 30px;
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+/* For medium devices (tablets, 768px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .registration-form {
+        width: 100%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 40px;
+        height: auto;
+        margin: 0px;
+    }
+    
+    .form-input .MuiInputBase-input {
+        font-size: 18px; 
+    }
+    
+    /* .form-input .MuiInputLabel-root {
+        font-size: 18px; 
+        width: 400px;
+    } */
+    .form-input .MuiOutlinedInput-root {
+        border-radius: 50px;
+        /* border: 40px; */
+        height: 90px;
+        width: 430px;
+        border: 1px solid rgb(138, 166, 184);
+    }
+    
+    .submit-button {
+        width: 120px;
+        height: 30px;
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+    }
+}
+
+/* For large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .registration-form {
+        width: 555px;
+        height: 600px;
+        /* padding-top: 100px;
+        padding-left: 10px;
+        margin-left: 0px; */
+    }
+    
+    .registration-container {
+        padding: 5px;
+    }
+   
+    .form-input .MuiOutlinedInput-root {
+        border-radius: 50px;
+        /* border: 40px; */
+        height: 90px;
+        width: 560px;
+        border: 1px solid rgb(138, 166, 184);
+    }
+    
+    .registration-container {
+        height: 900px;
+    }
+    
+    .form-input .MuiInputBase-input {
+        font-size: 22px; 
+        width: 100px;
+    }
+    
+    .form-input .MuiInputLabel-root {
+        font-size: 22px; 
+    }
+    
+    .submit-button {
+        width: 150px;
+        height: 50px;
+        font-size: 22px !important;
+    }
+    
+    .redirect-link {
+        font-size: 25px;
+        text-decoration: none;
+        color: rgb(0, 30, 255);
+    }
+}
+
+/* For extra large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .registration-form {
+        width: 700px;
+        height: 600px;
+        padding-left: 0px;
+        /* align-items: flex-start; */
+        /* justify-content: flex-start; */
+        padding-top: 60px;
+        height: auto;
+        padding-left: 10px;
+    }
+    
+    .custom-file-label {
+        width: 80%;
+    }
+    
+    .form-input .MuiOutlinedInput-root {
+        border-radius: 40px;
+        border: 5px;
+        height: 100px;
+        width: 650px;
+        border: 1px solid black;
+    }
+    
+    .form-input .MuiInputBase-input {
+        font-size: 22px;
+    }
+    
+    .form-input .MuiInputLabel-root {
+        font-size: 22px; 
+    }
+    
+    .registration-container {
+        height: 1200px;
+    }
+    
+    .submit-button {
+        width: 180px;
+        height: 50px;
+        font-size: 22px !important;
+        margin-bottom: 40px  !important;
+    }
+    
+    .redirect-link {
+        font-size: 28px;
+        text-decoration: none;
+        color: rgb(0, 30, 255);
+    }
+}

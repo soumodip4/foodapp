@@ -1,0 +1,140 @@
+.banner1{
+    background: url(../../../public/images/banner.jpg);
+    background-size: cover;
+    height: 350px;
+}
+.banner1 h1{
+    padding-top: 175px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.main-blog{
+    height: auto;
+}
+.icons{
+    display: flex;
+  
+}
+.icons span{
+    margin-top: 10px;
+    display: none;
+}
+.icons h4{
+    font-size: 16px;
+    color: slategray;
+}
+.sub-blog-text{
+    text-align: left;
+    padding-top: 50px;
+}
+.sub-blog{
+    margin-top: 50px;
+}
+.sub-blog img{
+   height: 300px;
+   margin-left: 100px;
+}
+.sub-blog-text h2{
+    font-size: 30px;
+
+}
+.sub-blog-text p{
+ font-size: 22px;
+ color: slategray;
+ padding-top: 30px;
+}
+.last{
+    padding-bottom: 100px;
+}
+.first{
+    margin-top: 50px;
+}
+@media (max-width: 575.98px){
+    .sub-blog-text{
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+    .sub-blog img{
+        height: 300px;
+        margin-left: 0px;
+     }
+     .sub-blog-text p{
+        font-size: 18px;
+        color: slategray;
+        padding-top: 30px;
+       }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .sub-blog-text{
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+    .sub-blog img{
+        height: 300px;
+        margin-left: 0px;
+     }
+     .sub-blog-text p{
+        font-size: 22px;
+        color: slategray;
+        padding-top: 30px;
+       }
+       .sub-blog-text h2{
+        font-size: 35px;
+    
+    }
+    .icons h4{
+        font-size: 20px;
+        color: slategray;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .sub-blog-text{
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    .sub-blog img{
+        height: 350px;
+        margin-left: 0px;
+     }
+     .sub-blog-text p{
+        font-size: 30px;
+        color: slategray;
+        padding-top: 30px;
+       }
+       .sub-blog-text h2{
+        font-size: 45px;
+    
+    }
+    .icons h4{
+        font-size: 20px;
+        color: slategray;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .sub-blog-text{
+        text-align: left;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    .sub-blog img{
+        height: 300px;
+        margin-left: 0px;
+     }
+     .sub-blog-text p{
+        font-size: 28px;
+        color: slategray;
+        padding-top: 30px;
+       }
+       .sub-blog-text h2{
+        font-size: 38px;
+    
+    }
+    .icons h4{
+        font-size: 20px;
+        color: slategray;
+    }
+}

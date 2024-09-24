@@ -1,0 +1,220 @@
+.grid3 {
+   background-color: rgb(255, 94, 0);
+   height: 700px;
+
+}
+
+.Food1 {
+   background: url(../../../public/images/bigburger.jpg);
+   background-size: 100% 100%;
+   height: 700px;
+   background-repeat: no-repeat;
+   backdrop-filter: blur(10px);
+
+}
+
+.Food1 h3 {
+   color: rgb(255, 94, 0);
+   padding-top: 80px;
+   font-size: 22px;
+}
+
+.Food1 h2 {
+   font-size: 50px;
+   color: white;
+   padding-top: 100px;
+}
+
+.Food1 .table {
+   height: 70px;
+   width: 300px;
+   border-radius: 50px;
+   background-color: rgb(255, 94, 0);
+   color: #ffff;
+   font-size: 16px;
+   font-weight: 600;
+   margin-top: 190px;
+}
+
+.Food1 .table:hover {
+   background-color: white;
+   color: black;
+}
+
+.Food2 {
+   background: url(../../../public/images/bigchiken.jpg);
+   padding-top: 80px;
+   background-position-y: 280px;
+   background-position-x: 20px;
+
+   height: 700px;
+   background-repeat: no-repeat;
+}
+
+.Food2 h2 {
+   font-size: 40px;
+   color: #ffff;
+   /* font-weight: 600; */
+   font-weight: 700;
+}
+
+.Food2 .events {
+   height: 70px;
+   width: 300px;
+   border-radius: 50px;
+   background-color: white;
+   color: black;
+   font-size: 17px;
+   font-weight: 600;
+   margin-top: 40px;
+}
+
+.Food2 .events:hover {
+   background-color: black;
+   color: #ffff;
+}
+
+.Food3 {
+   background: url(../../../public/images/stake.jpg);
+   background-size: 100% 100%;
+   height: 700px;
+   background-repeat: no-repeat;
+   background-color: rgb(255, 94, 0);
+   /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
+   backdrop-filter: blur(10px);
+}
+
+.Food3 h3 {
+   color: rgb(255, 94, 0);
+   padding-top: 80px;
+   font-size: 22px;
+}
+
+.Food3 h2 {
+   font-size: 45px;
+   color: #ffff;
+   padding-top: 100px;
+   /* font-weight: 600; */
+   font-weight: 700;
+}
+
+@media (max-width: 575.98px) {
+   .grid3 {
+      background-color: rgb(255, 94, 0);
+      height: auto;
+
+   }
+
+   .Food1 {
+      height: 400px;
+   }
+   .Food1 h3 {
+      color: rgb(255, 94, 0);
+      padding-top: 40px;
+      font-size: 22px;
+   }
+   
+.Food1 .table {
+   height: 70px;
+   width: 300px;
+   border-radius: 50px;
+   background-color: rgb(255, 94, 0);
+   color: #ffff;
+   font-size: 16px;
+   font-weight: 600;
+   margin-top: 25px;
+}
+   
+   .Food1 h2 {
+      font-size: 40px;
+      color: white;
+      padding-top: 100px;
+   }
+
+   .Food2 {
+      background: url(../../../public/images/bigchiken.jpg);
+      padding-top: 20%;
+      background-position: center;
+      background-position-y: 100%;
+      background-size: 50%;
+
+      height: 450px;
+      background-repeat: no-repeat;
+   }
+   .Food2 h2{
+      font-size: 40px;
+   }
+
+   .Food3 {
+      height: 400px;
+   }
+
+   .Food2 .events {
+      width: 200px;
+      height: 50px;
+      font-size: 14px;
+   }
+
+   .Food1 .table {
+      width: 200px;
+      height: 50px;
+      font-size: 14px;
+   }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .grid3 {
+      background-color: rgb(255, 94, 0);
+      height: auto;
+
+   }
+
+   .Food2 {
+      background: url(../../../public/images/bigchiken.jpg);
+      padding-top: 80px;
+      background-position: center;
+      background-position-y: 300px;
+      height: 700px;
+      background-repeat: no-repeat;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .grid3 {
+      background-color: rgb(255, 94, 0);
+      height: auto;
+
+   }
+
+   .Food2 {
+      background: url(../../../public/images/bigchiken.jpg);
+      padding-top: 80px;
+      background-position: center;
+      background-position-y: 300px;
+
+
+      height: 700px;
+      background-repeat: no-repeat;
+   }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   .grid3 {
+      background-color: rgb(255, 94, 0);
+      height: 700px;
+
+   }
+
+   .Food2 {
+      background: url(../../../public/images/bigchiken.jpg);
+      padding-top: 80px;
+      background-position: center;
+      background-position-y: 300px;
+
+
+      height: 700px;
+      background-repeat: no-repeat;
+   }
+}

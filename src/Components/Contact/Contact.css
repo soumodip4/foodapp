@@ -1,0 +1,157 @@
+.contact-banner {
+  background: url(../../../public/images/banner.jpg);
+  background-size: cover;
+  height: 350px;
+}
+
+.contact-banner h1 {
+  padding-top: 175px;
+  color: white;
+  text-transform: uppercase;
+}
+
+iframe {
+  height: 450px;
+  width: 80%;
+  border: 0px;
+  margin-top: 100px;
+}
+
+
+
+.mainBox {
+  display: flex;
+  flex-direction: column;
+  column-gap: 50px;
+  align-items: flex-start;
+  margin-left: 20px;
+  /* Adjust the left margin as needed */
+  margin-bottom: 100px;
+  margin-left: 150px;
+  margin-top: 100px;
+
+}
+
+.last-input {
+  margin-top: 50px;
+}
+
+.textField {
+  width: 800px;
+  margin-bottom: 100px;
+  border: 0px;
+  height: 100px;
+
+}
+
+.form {
+  padding-top: 100px;
+}
+
+.customInput {
+  height: 70px;
+}
+
+.customInput input {
+  padding: 0 14px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.submit {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(0, 72, 255) !important;
+  color: white !important;
+  font-weight: bold !important;
+
+}
+
+@media (max-width: 575.98px) {
+  .mainBox {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  iframe {
+    height: 250px;
+    width: 90%;
+    margin-top: 30px;
+  }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .mainBox {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  iframe {
+    height: 250px;
+    width: 90%;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .mainBox {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  iframe {
+    height: 300px;
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  .contactInfo h2 {
+    font-size: 38px;
+  }
+
+  .contactInfo p {
+    font-size: 22px;
+  }
+
+  .submit {
+    width: 150px;
+    height: 60px;
+    background-color: rgb(0, 72, 255) !important;
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .mainBox {
+    margin-left: 60px;
+    margin-right: 20px;
+  }
+
+  iframe {
+    height: 300px;
+    width: 90%;
+    margin-top: 30px;
+  }
+
+  .contactInfo h2 {
+    font-size: 38px;
+  }
+
+  .contactInfo p {
+    font-size: 22px;
+  }
+
+  .submit {
+    width: 150px;
+    height: 60px;
+    background-color: rgb(0, 72, 255) !important;
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 22px !important;
+
+  }
+}

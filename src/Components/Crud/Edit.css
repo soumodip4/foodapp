@@ -1,0 +1,268 @@
+
+.regis {
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba( 108, 158, 226, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.25 );
+    height: 450px;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    
+    
+}
+.main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+   
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: url(../../../public/images/regBack3.jpg)  no-repeat;
+  
+    height: 600px;
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+.back{
+    background: url(../../../public/images/regBack3.jpg)  no-repeat;
+    padding-top: 60px;
+    background-size: 100% 100%;
+    background-position: left;
+    width: 80%;
+    background-color: white;
+    height: 100%;
+}
+
+/* General form group styles */
+.form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style for the TextField */
+.textF {
+    width: 100%;
+    color: white !important;
+}
+.textF .MuiOutlinedInput-root {
+    border-radius: 25px;
+    
+}
+.textF .MuiInputBase-input {
+    color: rgb(208, 198, 198);
+  }
+  .textF label{
+    color: white;
+  }
+
+/* Style for the error messages */
+.error-text {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+
+/* Style for the submit button */
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #115293;
+}
+
+/* Custom input file styles */
+.custom-file-input {
+    display: none;
+}
+
+.custom-file-label {
+    width: 100%;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.custom-file-label:hover {
+    background-color: #d0d0d0;
+}
+@media (max-width: 575.98px){
+    .regis {
+        width: 100%;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding-top: 40px;
+        height: auto;
+        margin: 0px;
+    }
+    .textF .MuiInputBase-input {
+        font-size: 18px; /* Change font size here */
+    }
+    
+    .textF .MuiInputLabel-root {
+        font-size: 18px; /* Change label font size here */
+    }
+    
+    .btn{
+        width: 120px;
+        height: 30px;
+        font-size: 16px !important;
+        margin-bottom: 20px !important;
+    }
+  .regis p Link .divert {
+    color: blue; /* Change this to the color you want */
+  }
+  /* {
+        font-size: 18px;
+        text-decoration: none !important;
+        color: white;
+    } */
+    
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .regis2 {
+        width: 80%;
+        height: 600px;
+        padding-top: 20px;
+       
+      
+    }
+    
+    .main{
+        padding: 5px;
+    }
+   
+    .textF .MuiOutlinedInput-root {
+        border-radius: 25px;
+        border: 5px;
+        height: 80px;
+        width: 400px;
+        border: 1px solid black;
+       
+    }
+    .main{
+        height: 900px;
+    }
+    .textF .MuiInputBase-input {
+        font-size: 22px; /* Change font size here */
+    }
+    
+    .textF .MuiInputLabel-root {
+        font-size: 22px; /* Change label font size here */
+    }
+    .btn{
+        width: 150px;
+        height: 50px;
+        font-size: 22px !important;
+    }
+    .divert{
+        font-size: 25px;
+        text-decoration: none;
+        color: rgb(0, 30, 255);
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .regis {
+        width: 90%;
+        height: 600px;
+        padding-top: 80px;
+       padding-left: 50px;
+       align-items: flex-start;
+       justify-content: flex-start;
+       height: auto;
+      
+    }
+    .textF .MuiOutlinedInput-root {
+        border-radius: 25px;
+        border: 5px;
+        height: 90px;
+        width: 600px;
+        border: 1px solid black;
+       
+    }
+    .textF .MuiInputBase-input {
+        font-size: 22px; /* Change font size here */
+    }
+    
+    .textF .MuiInputLabel-root {
+        font-size: 22px; /* Change label font size here */
+    }
+    .main{
+        height: auto;
+    }
+    .btn{
+        width: 180px;
+        height: 50px;
+        font-size: 22px !important;
+        margin-bottom: 40px !important;
+    }
+    .divert{
+        font-size: 28px;
+        text-decoration: none;
+        color: rgb(0, 30, 255);
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .regis {
+        width: 65%;
+        height: 600px;
+       padding-left: 50px;
+       align-items: flex-start;
+       justify-content: flex-start;
+       padding-top: 60px;
+       height: auto;
+      
+    }
+    .textF .MuiOutlinedInput-root {
+        border-radius: 25px;
+        border: 5px;
+        height: 90px;
+        width: 600px;
+        border: 1px solid black;
+       
+    }
+    .textF .MuiInputBase-input {
+        font-size: 22px; /* Change font size here */
+    }
+    
+    .textF .MuiInputLabel-root {
+        font-size: 22px; /* Change label font size here */
+    }
+    .main{
+        height: 1200px;
+    }
+    .btn{
+        width: 180px;
+        height: 50px;
+        font-size: 22px !important;
+        margin-bottom: 40px  !important;
+    }
+    .divert{
+        font-size: 28px;
+        text-decoration: none;
+        color: rgb(0, 30, 255);
+    }
+}

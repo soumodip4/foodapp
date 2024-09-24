@@ -1,0 +1,158 @@
+.grid6{
+    height: 600px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.amenities{
+   background-color: rgba(252, 230, 202, 0.912); 
+   width: 250px;
+   height: 300px;
+   border-radius: 25px;
+   margin-left: 50px;
+   margin-top: 150px;
+   transition: ease 0.9s;
+}
+.amenities:hover{
+    margin-top: 90px;
+    
+}
+.amenities img{
+    margin-top: 50px;
+}
+.amenities h2{
+    padding-top: 10px;
+    font-weight: 600;
+}
+.amenities p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.services h2{
+    font-size: 40px;
+
+}
+.services h3{
+    font-size: 20px;
+    color:rgb(255, 94, 0); ;
+
+}
+@media (max-width: 575.98px){
+    .grid6{
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .services h2{
+        font-size: 30px;
+    }
+    .amenities{
+        background-color: rgba(252, 230, 202, 0.912); 
+        width: 82%;
+        height: 300px;
+        border-radius: 25px;
+        margin-left: 9%;
+        margin-top: 10px;
+        transition: ease 0.9s;
+     }
+     .card4{
+        margin-bottom: 20px;
+     }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .grid6{
+        height: auto;
+        padding-left: 1%;
+        padding-right: 10px;
+    }
+    .amenities{
+        background-color: rgba(252, 230, 202, 0.912); 
+        width: 90%;
+        height: 300px;
+        border-radius: 25px;
+        margin-left: 20px;
+        margin-top: 30px;
+        transition: ease 0.9s;
+     }
+     .card4{
+        margin-bottom: 20px;
+     }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    .grid6{
+        height: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .amenities{
+        background-color: rgba(252, 230, 202, 0.912); 
+        width: 90%;
+        height: 300px;
+        border-radius: 25px;
+        margin-left: 10px;
+        margin-top: 30px;
+        transition: ease 0.9s;
+     }
+     .card4{
+        margin-bottom: 20px;
+     }
+     .services h2{
+        font-size: 50px;
+    
+    }
+    .services h3{
+        font-size: 25px;
+        color:#f48e21 ;
+    
+    }
+     .amenities h2{
+        padding-top: 10px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .amenities p{
+        padding-top: 10px;
+        font-size: 18px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .grid6{
+        height: 600px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .amenities{
+        background-color: rgba(252, 230, 202, 0.912); 
+        width: 230px;
+        height: 350px;
+        border-radius: 25px;
+        margin-left: 10px;
+        margin-top: 80px;
+        transition: ease 0.9s;
+     }
+     .card4{
+        margin-bottom: 20px;
+     }
+     .services h2{
+        font-size: 50px;
+    
+    }
+    .services h3{
+        font-size: 25px;
+        color:#f48e21 ;
+    
+    }
+     .amenities h2{
+        padding-top: 10px;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    .amenities p{
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .amenities p br{
+        display: none;
+    }
+}
+
+
